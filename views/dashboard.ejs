@@ -1,0 +1,14 @@
+<%-include('header') -%>
+<div class="text-center center-div mt-5 text-light">
+    <div class="container w-25 boder py-5 mt-5 bg-dark ">
+        <h3>WeLCome to Dashboard &#128511;</h3>
+        <% if(locals.unauthorizedUser){%>
+            <div class="alert alert-info text-center">
+                <%=unauthorizedUser %>
+            </div>
+            <%}%>
+        <h4 class="font-weight-bolder text-success font-bold"><%=locals.user?user:"" %></h4>
+        <a href="/route/logout" class="btn btn-danger w-25 ">Logout</a>
+    </div>
+</div>
+<%-include('footer') -%>

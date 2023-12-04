@@ -1,0 +1,22 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-image: url('/assests/background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.center-div{
+    padding-top: 10%;
+}
+.btn.btn-success{
+    padding: .4em 2em;
+}
+form{
+    padding: 0 2em;
+}
+.small{
+    color: white;
+}
+#login .title>span{
+padding: .8em;
+
+}
